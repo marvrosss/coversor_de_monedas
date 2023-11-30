@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor_Monedas</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="t1">Conversor de monedas Nacional</h1>
+            <div class="box1">
+                <h3 class="t2">Pesos CLP</h3>
+
+                <!-- agregar monto en pesos chilenos -->
+                <input class="input1" type="text" id="input" placeholder="Ingrese el monto en CLP">
+
+                <h5>Moneda a convertir</h5>
+
+                <!-- seleccion de moneda -->
+                <select name="" id="monedas">
+                    <option value="" disabled selected>Seleccione moneda</option>
+                    <option value="0">Dolar</option>
+                    <option value="1">Euro</option>
+                </select>
+
+                <!-- boton de busqueda -->
+                <button class="btn" id="boton">Busacar</button>
+
+                <!-- resultado de conversion -->
+                <h3 class="resultado" id="resultado">...</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/js.js"></script>
+</body>
+</html>
